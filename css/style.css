@@ -1,3 +1,12 @@
+@font-face {
+	font-family: Quicksand;
+   	src: url(Quicksand-Regular.ttf);
+}
+@font-face {
+	font-family: LetterGothicStd;
+   	src: url(LetterGothicStd.otf);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -12,7 +21,7 @@ h1 {
 }
 
 h2, h4 {
-	font-family: 'Letter Gothic Std';
+	font-family: 'LetterGothicStd';
 	text-transform: uppercase;
 }
 
@@ -21,7 +30,7 @@ p,span {
 }
 
 .h1 {
-	font-family: 'Letter Gothic Std';
+	font-family: 'LetterGothicStd';
 }
 
 .color {
@@ -41,7 +50,7 @@ p,span {
 }
 
 .card-title {
-	font-family: 'Letter Gothic Std';
+	font-family: 'LetterGothicStd';
 	letter-spacing: 0;
 }
 
