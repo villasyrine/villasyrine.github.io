@@ -7,21 +7,6 @@
 	font-family: 'Quicksand';
 }
 
-@font-face {
-	font-family: Letter Gothic Std;
-	src: url(../fonts/LetterGothicStd.otf);
-}
-
-@font-face {
-	font-family: Quicksand;
-	src: url(../fonts/Quicksand-Regular.ttf);
-}
-
-@font-face {
-	font-family: Raleway;
-	src: url(../fonts/Raleway-Regular.ttf);
-}
-
 h1 {
 	font-size: 2.5rem;
 }
@@ -33,10 +18,7 @@ h2, h4 {
 
 p,span {
 	font-size: 0.9375rem;
-	/*font-family: 'Raleway';*/
-	/*line-height: 1.5;*/
 }
-
 
 .h1 {
 	font-family: 'Letter Gothic Std';
@@ -62,7 +44,6 @@ p,span {
 	font-family: 'Letter Gothic Std';
 	letter-spacing: 0;
 }
-
 
 /* ==========
  Header
@@ -204,7 +185,6 @@ header span {
 	overflow: hidden;
 }
 
-
 /* ==========
  Skills
  =========== */
@@ -231,7 +211,6 @@ header span {
 .photoshop { width: 40%; } 
 .illustrator { width: 80%; }
 
-
 /* ==========
  Projects
  =========== */
@@ -242,13 +221,6 @@ header span {
 	font-size: 14px;
 	font-size: 14px;
 }
-
-#projects #more,
-#projects #dots {
-	/*display: none;*/
-	/*background: #000;*/
-}
-
 
 /* ==========
  Footer
