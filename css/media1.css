@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h1 span {
+		font-size: 1.75rem;
+		word-wrap: break-word;
+	}
+
+	header a {
+		font-size: 0.875rem;
+
+	}
+
+	p,span {
+		font-size: 0.875rem;
+	}
+
+	#about img { 
+		width: 200px;
+	}
+
+}
