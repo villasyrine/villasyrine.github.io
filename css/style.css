@@ -207,7 +207,7 @@ header span {
 	border: 1px solid #FA8072;
 }
 
-.skill-bar * { background: #FA8072 }
+.skill-bar * { background: #FA8072; }
 
 .html { width: 90%; } 
 .css { width: 80%; } 
@@ -231,6 +231,43 @@ header span {
 	font-size: 14px;
 }
 
+.hide {
+	display: none;
+}
+
+.read-more-show:before {
+	content: "... ";
+}
+
+.read-more-show:hover,
+.read-more-hide:hover {
+	text-decoration: none;
+}
+
+#projects .fa {
+	cursor: pointer;
+}
+
+.fa-external-link:hover {
+	font-weight: bolder;
+}
+
+#projects button {
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#projects button:hover {
+	color: #000;
+	font-weight: bolder;
+}
+
+.active {
+	font-weight: bolder;
+	color: #FA8072!important;
+	font-size: 20px!important;
+}
+
 /* ==========
  Footer
  =========== */
@@ -240,6 +277,11 @@ footer a {
 	background: #000;
 	color: #ccc;
 }
+
+footer .socials a {
+	text-decoration: none;
+}
+
 footer a:hover {
 	color: #fff;
 }
